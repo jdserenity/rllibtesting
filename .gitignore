@@ -1,4 +1,10 @@
 lunarlander-SB3-gymnasium/venv/**/*
+lunarlander-SB3-gymnasium/.venv/**/*
 lunarlander-torchRL-gymnasium/venv/**/*
+lunarlander-torchRL-gymnasium/.venv/**/*
+lunarlander-RLlib-gymnasium/venv/**/*
+lunarlander-RLlib-gymnasium/.venv/**/*
 /venv/
 /venv/**/*
+/.venv/
+/.venv/**/*

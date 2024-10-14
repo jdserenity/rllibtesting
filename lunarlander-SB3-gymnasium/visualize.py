@@ -1,8 +1,9 @@
 import gymnasium as gym
-from stable_baselines3 import DQN
+from stable_baselines3 import DQN, PPO
 
 # Load the saved model
-model = DQN.load("dqn_lunar_lander")
+# model = DQN.load("dqn_lunar_lander")
+model = PPO.load("ppo_lunar_lander")
 
 # Create the environment with rendering
 env = gym.make("LunarLander-v2", render_mode="human")
