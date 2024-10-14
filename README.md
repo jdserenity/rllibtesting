@@ -1,6 +1,6 @@
 # RL Library Testing
 
-TL;DR: TorchRL is the obvious choice, however it is not an apples to apples comparison. SB3 is designed to be beginner friendly, fast, and allow users to apply standard DRL algorithms to the problems they have. TorchRL is designed to for larger scale teams doing research and who need custom algorithms / neural network architectures to achieve their goals. SB3 Provides the standard known algorithms, while in TorchRL we would have to build them ourselves with the building blocks provided to us by the library. These are not mutually exclusive libraries.
+TL;DR: TorchRL is the obvious choice, however it is not an apples to apples comparison. SB3 is designed to be beginner friendly, fast, and allow users to apply standard DRL algorithms to the problems they have. TorchRL is designed for larger scale teams doing research and who need custom algorithms / neural network architectures to achieve their goals. SB3 Provides the standard known algorithms, while in TorchRL we would have to build them ourselves with the building blocks provided to us by the library. These are not mutually exclusive libraries.
 
 There is merit in using a hybrid approach; We can potentially use SB3 for quick prototyping or baseline implementations, and then use TorchRL for more custom or complex algorithms that require greater flexibility and creativity. However TorchRL should be our main focus for the long run.
 
